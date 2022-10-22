@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="D:\HTML\static\LinkinPark.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lazar Krecic">
+    <title>Linkin Park</title>
+</head>
+<body>
+    <div class="nav">
+        <div onclick="navMenu()" id="category">SELECTION</div>
+        <div class="list" id="show">
+            <a href="/template/LinkinPark/LinkinPark.html"><b>Linkin Park</b></a>
+            <b>Nirvana</b>
+            <b>Skillet</b>
+            <b>Mayhem</b>
+        </div>
+    </div>
+    <div class="title">
+        <h1>Linkin Park</h1>
+    </div>
+    <div class="members">
+        <a href="Chester.html" rel="noreferrer-noopener"><img src="D:\HTML\pics\Tribute\Chester5.jpg" alt="Greska"></a>
+        <a href="Mike.html" rel="noreferrer-noopener"><img src="D:\HTML\pics\Tribute\Mike2.webp" alt="Greska"></a>
+        <a href="Brad.html" rel="noreferrer-noopener"><img src="D:\HTML\pics\Tribute\BradDelson.webp" alt="Greska"></a>
+        <a href="Dave.html"><img src="D:\HTML\pics\Tribute\Dave.webp" alt="Greska"></a>
+        <a href="Rob.html" rel="noreferrer-noopener"><img src="D:\HTML\pics\Tribute\Rob.webp" alt="Greska"></a>
+        <!--Joe Hahn-->
+    </div>
+</body>
+<script>
+    var menu = document.getElementById("show")
+    menu.style.display = "none"
+    function navMenu() {
+        if (menu.style.display === "none") {
+            menu.style.display = "inline-block"
+        } else {
+            menu.style.display = "none"
+        }
+    }
+</script>
+</html>

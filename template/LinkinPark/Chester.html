@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="D:\HTML\static\Tribute.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lazar Krecic">
+    <title>Tribute</title>
+</head>
+<body>
+    <div class="nav">
+        <div onclick="navMenu()" id="category">SELECTION</div>
+        <div class="list" id="show">
+            <a href="LinkinPark.html"><b>Linkin Park</b></a>
+            <b>Nirvana</b>
+            <b>Skillet</b>
+            <b>Mayhem</b>
+        </div>
+    </div>
+    <div class="title">
+        <h1>Chester Bennington</h1>
+    </div>
+    <div class="uvod">
+        <img src="D:\HTML\pics\Tribute\Chester5.jpg" alt="Greska"><br>
+    </div>
+    <div class="wrap">
+        <p>☛ Born in March 20, 1976 in Phoenix, Arizona, U.S. 
+            <b>Chester Charles Bennington</b> (March 20, 1976 - July 20, 2017) was an American singer and songwriter who was best known as the lead vocalist of rock band Linkin Park. He was also the lead vocalist of the bands Grey Daze, Dead by Sunrise, and Stone Temple Pilots.<br>
+            ☛ Bennington first gained prominence as a vocalist following the release of Linkin Park's debut album, <i>Hybrid Theory</i> (2000), which was a worldwide commercial success. The album was certified Diamond by the Recording Industry Association of America in 2005, making it the best-selling debut album of the decade, as well as one of the few albums ever to achieve that many sales.<br> 
+            ☛ Linkin Park's following studio albums, <i>from Meteora</i> (2003) to <i>One More Light</i> (2017), continued the band's success.<br>
+            ☛ Bennington formed his own band, <b>Dead by Sunrise</b>, as a side project in 2005. The band's debut album, Out of Ashes, was released on October 13, 2009.<br> 
+            ☛ He became the lead singer of <b>Stone Temple Pilots</b> in 2013 to release the extended play record High Rise on October 8, 2013, via their own record label, Play Pen, but left in 2015 to focus solely on Linkin Park.<br> 
+            ☛ As an actor, he appeared in films such as Crank (2006), Crank: High Voltage (2009), and Saw 3D (2010).<br>
+            ☛ Bennington struggled with depression and substance abuse for most of his life, starting in his childhood. On July 20, 2017, he was found dead at his home in Palos Verdes Estates, California; his death was ruled a suicide by hanging.<br> 
+            ☛ Hit Parader magazine placed Bennington at number 46 on their list of the "Top 100 Metal Vocalists of All Time". Bennington has been credited by several publications as one of the greatest rock vocalists of his generation.<br>
+            ☛ Writing for Billboard, Dan Weiss stated that Bennington "turned nu-metal universal".
+        </p>
+    </div>
+</body>
+<script>
+    var menu = document.getElementById("show")
+    menu.style.display = "none"
+    function navMenu() {
+        if (menu.style.display === "none") {
+            menu.style.display = "inline-block"
+        } else {
+            menu.style.display = "none"
+        }
+    }
+</script>
+</html>

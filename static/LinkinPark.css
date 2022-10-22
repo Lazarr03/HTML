@@ -1,0 +1,49 @@
+body {
+    margin: 5% 10%;
+    background: fixed url("../pics/Tribute/LinkinParkLogo.jpg");
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.nav {
+    text-align: center;
+    font-size: x-large;
+    position: static;
+    text-decoration:underline;
+    color: white;
+}
+.nav:hover {
+    cursor: pointer;
+}
+.list {
+    text-align: center;
+    top: 15%;
+    left: 0;
+    height: 50%;
+    width: 100%;
+    background: #d1213b;
+    position: absolute;
+}
+.list b, a {
+    color: white;
+    font-size: 3vh;
+    text-decoration: none;
+}
+.list b:hover {
+    text-decoration: underline;
+}
+.title {
+    text-align: center;
+    font-size: 5vh;
+    background: #befbfe;
+}
+.members {
+    display: grid;
+    margin: auto;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+.members img {
+    width: 100%;
+    height: 400px;
+}
