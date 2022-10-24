@@ -29,7 +29,7 @@
     padding: 3%;
     text-align: center;
 }
-.deo2 {
+.projekti {
     width: 100%;
     height: 600px;
     background: url('./pics/deo2.jpg');
@@ -37,7 +37,7 @@
     background-size: 100% 100%;
     
 }
-.deo2 h2 {
+.projekti h2 {
     text-align: center;
     position: relative;
     margin: auto;
@@ -57,14 +57,14 @@
     text-align: center;
        
 }
-.deo3 {
+.studije {
     background: url("./pics/DSC_0261-1a.jpg") fixed;
     background-size: 100% 100%;
     height:600px;
     width: 100%;
     
 }
-.deo3 h2 {
+.studije h2 {
     text-align: center;
     position: relative;
     margin:auto;
